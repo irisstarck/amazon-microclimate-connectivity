@@ -77,8 +77,8 @@ pa <- st_read(file.path(data.dir, "file"))
 connectivity_245 <-  rast(file.path(result.folder, "connectivity_245.tif")) # can also be original microclimate map
 
 # Ensure same CRS
-pa <- project(pa, crs(connectivity_245))
-pa <- makeValid(pa)
+pa <- st_transform(pa, crs(connectivity_245))
+pa <- st_make_valid(pa)
 
 ######################################################################################### 
 #                                                                                       #
