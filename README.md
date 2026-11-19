@@ -51,7 +51,7 @@ All analyses are implemented in **R**. The following R packages are required:
 | ggplot2 | ≥ 3.4 | Scripts 03, 04 |
 | patchwork | ≥ 1.2 | Script 03 |
 
-The scripts were developed and tested with R 4.3.x on a Windows 10/11 desktop environment. They should also run on macOS and Linux.
+The scripts were developed and tested with R 4.5.2 on a Windows 10/11 desktop environment. They should also run on macOS and Linux.
 
 No specialized hardware is required. For the full Amazon-wide analysis, a machine with at least 16 GB RAM is recommended due to the size of the rasters. The example/demo dataset runs on any standard desktop or laptop computer.
 
